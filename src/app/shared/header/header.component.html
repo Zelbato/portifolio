@@ -7,7 +7,7 @@
             <span class="logo-text">HEITOR.DEV</span>
         </button>
 
-        <div class="menu" aria-label="Navegação principal">
+        <div class="menu" aria-label="Navegacao principal">
             @for (item of navItems; track item.id) {
             <button type="button" class="link" [class.is-active]="isActive(item.id)" (click)="navigateTo(item.id)">
                 {{ item.label }}
@@ -25,32 +25,40 @@
             <lucide-icon [name]="menuOpen() ? X : menu"></lucide-icon>
         </button>
     </div>
+</nav>
 
-    @if (menuOpen()) {
-    <div class="mobile-panel">
-        <div class="mobile-panel__backdrop" (click)="closeMenu()"></div>
+@if (menuOpen()) {
+<div class="mobile-panel">
+    <div class="mobile-panel__backdrop" (click)="closeMenu()"></div>
 
-        <div class="mobile-panel__content">
-            <div class="mobile-panel__header">
-                <span>Menu</span>
+    <div class="mobile-panel__content">
+        <div class="mobile-panel__header">
+            <div class="mobile-panel__status">NAVEGACAO_ATIVA</div>
+            <div class="mobile-panel__brand-row">
+                <div class="drawer-logo">
+                    <div class="drawer-logo-box">
+                        <span class="drawer-logo-letter">H</span>
+                    </div>
+                    <span class="drawer-logo-text">HEITOR.DEV</span>
+                </div>
                 <button type="button" class="mobile-close" (click)="closeMenu()" aria-label="Fechar menu">
                     <lucide-icon [name]="X"></lucide-icon>
                 </button>
             </div>
+        </div>
 
-            <div class="mobile-links">
-                @for (item of navItems; track item.id) {
-                <button type="button" class="mobile-link" [class.is-active]="isActive(item.id)"
-                    (click)="navigateTo(item.id)">
-                    {{ item.label }}
-                </button>
-                }
+        <div class="mobile-links">
+            @for (item of navItems; track item.id) {
+            <button type="button" class="mobile-link" [class.is-active]="isActive(item.id)"
+                (click)="navigateTo(item.id)">
+                {{ item.label }}
+            </button>
+            }
 
-                <button type="button" class="mobile-cta" (click)="scrollToFooter()">
-                    Entrar em Contato
-                </button>
-            </div>
+            <button type="button" class="mobile-cta" (click)="scrollToFooter()">
+                Entrar em Contato
+            </button>
         </div>
     </div>
-    }
-</nav>
+</div>
+}

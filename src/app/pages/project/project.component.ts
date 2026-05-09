@@ -254,11 +254,20 @@ export class ProjectsComponent {
 
   constructor() {
     effect(() => {
-      this.document.body.style.overflow = this.dialogProjectId() !== null ? 'hidden' : '';
+      const isDialogOpen = this.dialogProjectId() !== null;
+
+      this.document.body.style.overflow = isDialogOpen ? 'hidden' : '';
+
+      if (isDialogOpen) {
+        this.document.body.classList.add('project-modal-open');
+      } else {
+        this.document.body.classList.remove('project-modal-open');
+      }
     });
 
     this.destroyRef.onDestroy(() => {
       this.document.body.style.overflow = '';
+      this.document.body.classList.remove('project-modal-open');
     });
   }
 
