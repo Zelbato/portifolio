@@ -60,7 +60,7 @@ export class SkillsComponent implements AfterViewInit {
     {
       name: 'Angular',
       icon: Code,
-      level: 65,
+      level: 85,
       category: 'frontend',
       yearsEx: 0.8,
       usage: 'Desenvolvimento de interfaces e aplicações web',
@@ -70,7 +70,7 @@ export class SkillsComponent implements AfterViewInit {
     {
       name: 'TypeScript',
       icon: Terminal,
-      level: 65,
+      level: 85,
       category: 'frontend',
       yearsEx: 0.8,
       usage: 'Estruturação, tipagem e manutenção de aplicações',
@@ -79,7 +79,7 @@ export class SkillsComponent implements AfterViewInit {
     {
       name: 'JavaScript',
       icon: Cpu,
-      level: 78,
+      level: 88,
       category: 'frontend',
       yearsEx: 2.5,
       usage: 'Interatividade, lógica e funcionalidades web',
@@ -89,7 +89,7 @@ export class SkillsComponent implements AfterViewInit {
     {
       name: 'Tailwind CSS',
       icon: Palette,
-      level: 90,
+      level: 95,
       category: 'frontend',
       yearsEx: 2.5,
       usage: 'Criação de interfaces modernas e responsivas',
@@ -99,7 +99,7 @@ export class SkillsComponent implements AfterViewInit {
     {
       name: 'SCSS',
       icon: Palette,
-      level: 80,
+      level: 100,
       category: 'frontend',
       yearsEx: 3,
       usage: 'Estilização avançada e organização de estilos',
@@ -109,7 +109,7 @@ export class SkillsComponent implements AfterViewInit {
     {
       name: 'Laravel',
       icon: Cpu,
-      level: 35,
+      level: 55,
       category: 'backend',
       yearsEx: 0.6,
       usage: 'APIs, regras de negócio e integrações',
@@ -119,7 +119,7 @@ export class SkillsComponent implements AfterViewInit {
     {
       name: 'PHP',
       icon: Terminal,
-      level: 75,
+      level: 85,
       category: 'backend',
       yearsEx: 2,
       usage: 'Desenvolvimento back-end e lógica de sistemas',
@@ -129,7 +129,7 @@ export class SkillsComponent implements AfterViewInit {
     {
       name: 'Docker',
       icon: Ship,
-      level: 60,
+      level: 100,
       category: 'backend',
       yearsEx: 1,
       usage: 'Ambientes de desenvolvimento e deploy',
@@ -139,7 +139,7 @@ export class SkillsComponent implements AfterViewInit {
     {
       name: 'Google AI Studio',
       icon: Sparkles,
-      level: 78,
+      level: 100,
       category: 'ai',
       yearsEx: 1,
       usage: 'Prototipação de interfaces e auxílio criativo',
@@ -149,7 +149,7 @@ export class SkillsComponent implements AfterViewInit {
     {
       name: 'Codex',
       icon: Zap,
-      level: 82,
+      level:100,
       category: 'ai',
       yearsEx: 2,
       usage: 'Auxílio no desenvolvimento e estruturação de código',
@@ -159,7 +159,7 @@ export class SkillsComponent implements AfterViewInit {
     {
       name: 'Ionic',
       icon: Smartphone,
-      level: 72,
+      level: 80,
       category: 'mobile',
       yearsEx: 1,
       usage: 'Desenvolvimento de aplicações mobile híbridas',
