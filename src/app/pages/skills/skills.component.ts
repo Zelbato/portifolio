@@ -62,7 +62,7 @@ export class SkillsComponent implements AfterViewInit {
       icon: Code,
       level: 65,
       category: 'frontend',
-      yearsEx: 0.5,
+      yearsEx: 0.8,
       usage: 'Desenvolvimento de interfaces e aplicações web',
       status: 'Principal'
     },
@@ -72,7 +72,7 @@ export class SkillsComponent implements AfterViewInit {
       icon: Terminal,
       level: 65,
       category: 'frontend',
-      yearsEx: 0.5,
+      yearsEx: 0.8,
       usage: 'Estruturação, tipagem e manutenção de aplicações',
       status: 'Principal'
     },
@@ -81,7 +81,7 @@ export class SkillsComponent implements AfterViewInit {
       icon: Cpu,
       level: 78,
       category: 'frontend',
-      yearsEx: 2,
+      yearsEx: 2.5,
       usage: 'Interatividade, lógica e funcionalidades web',
       status: 'Consistente'
     },
@@ -91,7 +91,7 @@ export class SkillsComponent implements AfterViewInit {
       icon: Palette,
       level: 90,
       category: 'frontend',
-      yearsEx: 2,
+      yearsEx: 2.5,
       usage: 'Criação de interfaces modernas e responsivas',
       status: 'Destaque'
     },
@@ -101,7 +101,7 @@ export class SkillsComponent implements AfterViewInit {
       icon: Palette,
       level: 80,
       category: 'frontend',
-      yearsEx: 2,
+      yearsEx: 3,
       usage: 'Estilização avançada e organização de estilos',
       status: 'Consistente'
     },
@@ -111,7 +111,7 @@ export class SkillsComponent implements AfterViewInit {
       icon: Cpu,
       level: 35,
       category: 'backend',
-      yearsEx: 0.3,
+      yearsEx: 0.6,
       usage: 'APIs, regras de negócio e integrações',
       status: 'Principal'
     },
@@ -121,7 +121,7 @@ export class SkillsComponent implements AfterViewInit {
       icon: Terminal,
       level: 75,
       category: 'backend',
-      yearsEx: 1,
+      yearsEx: 2,
       usage: 'Desenvolvimento back-end e lógica de sistemas',
       status: 'Consistente'
     },
@@ -147,7 +147,7 @@ export class SkillsComponent implements AfterViewInit {
     },
 
     {
-      name: 'Gemini',
+      name: 'Codex',
       icon: Zap,
       level: 82,
       category: 'ai',
@@ -157,21 +157,11 @@ export class SkillsComponent implements AfterViewInit {
     },
 
     {
-      name: 'Stitch',
-      icon: Smartphone,
-      level: 70,
-      category: 'ai',
-      yearsEx: 1,
-      usage: 'Criação e prototipação de layouts mobile',
-      status: 'Explorando'
-    },
-
-    {
       name: 'Ionic',
       icon: Smartphone,
       level: 72,
       category: 'mobile',
-      yearsEx: 0.5,
+      yearsEx: 1,
       usage: 'Desenvolvimento de aplicações mobile híbridas',
       status: 'Consistente'
     }
